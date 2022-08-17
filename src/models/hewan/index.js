@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../../config/dbConnection');
 
 const HewanModel = sequelize.define(
-  'users',
+  'hewan',
   {
     id: {
       type: DataTypes.INTEGER.UNSIGNED,
