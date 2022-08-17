@@ -21,3 +21,5 @@
   "nama": "string",
   "spesies": "string"
 }
+
+spesies: [ kucing, anjing, kelinci ]

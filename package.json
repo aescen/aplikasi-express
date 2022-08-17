@@ -5,7 +5,7 @@
   "main": "./src/app.js",
   "scripts": {
     "start": "node ./src/app.js",
-    "dev": "nodemon ./src/app.js"
+    "web": "node --optimize_for_size --max_old_space_size=448 --gc_interval=100 ./src/app.js"
   },
   "keywords": [],
   "author": "",
