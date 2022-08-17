@@ -20,8 +20,7 @@
 ```json
 {
   "nama": "string",
-  "spesies": "string"
+  "namaSpesies": "string",
+  "umur": "int"
 }
 ```
-
-spesies: [ kucing, anjing, kelinci ]
